@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - ItemOne
+  - ItemTwo
+  - ItemThree
+  - ItemFour
+  - ItemFive
+  - ItemSix
+  - ShopKeeper
   layers:
   - Default
   - TransparentFX
@@ -46,4 +53,7 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 3182650437
+    locked: 0
+  - name: keeper
+    uniqueID: 3142575445
     locked: 0
