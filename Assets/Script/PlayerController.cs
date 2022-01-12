@@ -28,6 +28,22 @@ public class PlayerController : MonoBehaviour
 
         Move(targetVelocity);
     }
+    private void Update()
+    {
+        ChangeOutfit();
+    }
+
+    void ChangeOutfit(){
+        if (ShopManager.Instance.equipedItemTwo){
+            animator.runtimeAnimatorController = ShopManager.Instance.JackAnim;
+        }
+        else if (ShopManager.Instance.equipedItemOne){
+            animator.runtimeAnimatorController = ShopManager.Instance.RedAnim;
+        }
+        if (ShopManager.Instance.equipedItemThree){
+            animator.runtimeAnimatorController = ShopManager.Instance.blackAnim;
+        }
+    }
 
     void Move(Vector2 targetVelocity)
     {        

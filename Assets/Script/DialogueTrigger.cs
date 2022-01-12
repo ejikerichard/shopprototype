@@ -16,4 +16,8 @@ public class DialogueTrigger : MonoBehaviour {
 		}
 
     }
+    private void OnCollisionExit2D(Collision2D collision){
+        FindObjectOfType<DialogueManager>().animator.SetBool("IsOpen", false);
+        ShopManager.Instance.shopBtn.interactable = false;
+    }
 }

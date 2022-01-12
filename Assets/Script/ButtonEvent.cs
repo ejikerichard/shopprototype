@@ -21,6 +21,9 @@ public class ButtonEvent : MonoBehaviour, IPointerDownHandler
                 ShopManager.Instance.items.buyBtn.SetActive(true);
                 ShopManager.Instance.items.sellBtn.SetActive(false);
                 ShopManager.Instance.items.equipBtn.SetActive(false);
+                ShopManager.Instance.equipedItemTwo = false;
+                ShopManager.Instance.equipedItemOne = true;
+                ShopManager.Instance.equipedItemThree = false;
             }
         }
         else if(transform.gameObject.tag == "ItemTwo"){
@@ -38,6 +41,9 @@ public class ButtonEvent : MonoBehaviour, IPointerDownHandler
                 ShopManager.Instance.itemsTwo.buyBtn.SetActive(true);
                 ShopManager.Instance.itemsTwo.sellBtn.SetActive(false);
                 ShopManager.Instance.itemsTwo.equipBtn.SetActive(false);
+                ShopManager.Instance.equipedItemTwo = true;
+                ShopManager.Instance.equipedItemOne = false;
+                ShopManager.Instance.equipedItemThree = false;
             }
         }
         if(transform.gameObject.tag == "ItemThree"){
@@ -55,6 +61,9 @@ public class ButtonEvent : MonoBehaviour, IPointerDownHandler
                 ShopManager.Instance.itemsThree.buyBtn.SetActive(true);
                 ShopManager.Instance.itemsThree.sellBtn.SetActive(false);
                 ShopManager.Instance.itemsThree.equipBtn.SetActive(false);
+                ShopManager.Instance.equipedItemTwo = false;
+                ShopManager.Instance.equipedItemOne = false;
+                ShopManager.Instance.equipedItemThree = true;
             }
         }
         else if(transform.gameObject.tag == "ItemFour"){

@@ -8,6 +8,11 @@ public class ShopManager : MonoBehaviour
     public static ShopManager Instance;
 
     [SerializeField] GameObject shopPanel;
+    public Button shopBtn;
+
+    public RuntimeAnimatorController blackAnim, RedAnim, JackAnim;
+
+    public bool equipedItemOne, equipedItemTwo, equipedItemThree;
 
     #region Item class variables
     [SerializeField] public ItemsOne items;
@@ -23,7 +28,9 @@ public class ShopManager : MonoBehaviour
     private void Awake(){
         Instance = this;
     }
-
+    private void Start(){
+        equipedItemThree = true;
+    }
     private void Update(){
         OnExitShop();
     }
@@ -31,11 +38,13 @@ public class ShopManager : MonoBehaviour
     void OnExitShop(){
         if(Input.GetKey(shopExit_Btn) && shopPanel.activeSelf){
             shopPanel.SetActive(false);
+            shopBtn.interactable = false;
         }
     }
 
     public void OnShop(){
         shopPanel.SetActive(true);
+        shopBtn.interactable = false;
     }
 }
 

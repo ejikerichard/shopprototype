@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 3e755f1a34f81594a9eeb5e6301a73e8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8824113596617000951
+    second: 003 Tool use side - sheet_0
+  - first:
+      213: -6155397237640977363
+    second: 003 Tool use side - sheet_1
+  - first:
+      213: 2316397966117305980
+    second: 003 Tool use side - sheet_2
+  - first:
+      213: 712114874304942681
+    second: 003 Tool use side - sheet_3
+  - first:
+      213: 1539384679199514366
+    second: 003 Tool use side - sheet_4
+  - first:
+      213: -2515368769169249525
+    second: 003 Tool use side - sheet_5
+  - first:
+      213: 5592561551043899405
+    second: 003 Tool use side - sheet_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -46,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,7 +146,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 003 Tool use side - sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 16
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f70d00609c857a70800000000000000
+      internalID: 8824113596617000951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use side - sheet_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 16
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d242df633d2a39aa0800000000000000
+      internalID: -6155397237640977363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use side - sheet_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 16
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7efbd86daf752020800000000000000
+      internalID: 2316397966117305980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use side - sheet_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 16
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952d73a84b0f1e900800000000000000
+      internalID: 712114874304942681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use side - sheet_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 16
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe9d50b53efc5510800000000000000
+      internalID: 1539384679199514366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use side - sheet_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 16
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b2e827e6d971dd0800000000000000
+      internalID: -2515368769169249525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use side - sheet_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 16
+        width: 17
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ba7a9915cc9d40800000000000000
+      internalID: 5592561551043899405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,28 @@
 fileFormatVersion: 2
 guid: 66bdc07c227693543941a04d4fa2e581
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5073480177185902284
+    second: 003 Tool use front - sheet_0
+  - first:
+      213: 1954327742573058535
+    second: 003 Tool use front - sheet_1
+  - first:
+      213: -1005346351371272387
+    second: 003 Tool use front - sheet_2
+  - first:
+      213: 3312281058925457265
+    second: 003 Tool use front - sheet_3
+  - first:
+      213: -1571226158021522605
+    second: 003 Tool use front - sheet_4
+  - first:
+      213: -6757793912238986106
+    second: 003 Tool use front - sheet_5
+  - first:
+      213: 56616611024001636
+    second: 003 Tool use front - sheet_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -46,7 +67,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,7 +146,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 003 Tool use front - sheet_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 16
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43139d7c8a06799b0800000000000000
+      internalID: -5073480177185902284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use front - sheet_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 16
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e912c63aba2f1b10800000000000000
+      internalID: 1954327742573058535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use front - sheet_2
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 16
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb74ae1da4c02f0800000000000000
+      internalID: -1005346351371272387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use front - sheet_3
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 16
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fa189e21697fd20800000000000000
+      internalID: 3312281058925457265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use front - sheet_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 16
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b435d4222e13ae0800000000000000
+      internalID: -1571226158021522605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use front - sheet_5
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 16
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ca2bbbd3e7732a0800000000000000
+      internalID: -6757793912238986106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 003 Tool use front - sheet_6
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 16
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ad87cf18429c000800000000000000
+      internalID: 56616611024001636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

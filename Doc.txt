@@ -1,0 +1,4 @@
+Hello good day, so i made the prototype with the mindset to create a very simple shop prototype and dialogue system..
+i was very limited when it comes to asset as, i couldnt find asset that fit what i wanted to do online with the limited time i have..i got the character asset from itch.io..not,
+really what wanted but it closs, for the UI i used unity in build sprite, got the code of dialogue from brackey tutorial to fasten the process...also got the environment asset from itch.io..
+other codes was written by me..for how i think i did i would say 5/10..
